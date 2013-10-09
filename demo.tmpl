@@ -1,0 +1,12 @@
+{{define "a"}}
+This is in a subtemplate.
+{{end}}
+
+This is some text!
+{{"Test of expression"}}
+----
+{{if 1}}
+Text inside conditional!
+{{end}}
+More text.
+{{template "a"}}

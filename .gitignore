@@ -1,0 +1,5 @@
+# ignore all output files
+*.html
+*.orig.html
+*.tmpl.new
+*.trace.json
